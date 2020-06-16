@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.div_left h3{
+
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: px;
+    color: rgb(0, 0, 71);
+}
+
+.container{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+.div_left{
+
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-right: 30px;
+      
+}
+
+.div_right{
+
+    display:flex;
+    width: 400px;
+    flex-direction: column;
+    color: #FFF;
+    background-color: rgb(0, 0, 71);
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+/*Header*/
+
+.header{
+
+    height: 95px;
+    width: 300px;
+
+}
+
+.header::before{
+
+        content: '';
+        position: absolute;
+        width: 600px;
+        height: 3px;
+        background-color:grey;
+        top: 140px;
+        border-radius: 5px;   
+}
+
+.header_item{
+
+    display: inline-block;
+}
+
+.header_img{
+
+    border: solid 1px transparent;
+    border-radius: 200px;
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+}
+
+.header_h1{
+
+    font-family: 'Fjalla One', sans-serif;
+    position: absolute;
+    line-height: 0px;
+    margin-left: 20px;
+}
+
+.div_resena{
+
+margin-top: 50px;
+
+}
+
+span{
+
+    font-weight: bold;
+}
+
+/*Experiencias ONE*/
+
+.div_experiencia{
+ 
+    margin-top: 50px;
+
+}
+.article_one{
+
+    margin-bottom: 25px;
+}
+
+.div_article_one{
+
+    margin: 5px;
+}
+
+/*Experiencias MP*/
+
+.article_mp{
+
+    margin-bottom: 25px;
+}
+
+.div_article_mp{
+
+    margin: 5px;
+
+
+}
+
+/*Experiencia bbk*/
+
+.article_bbk{
+
+    margin-bottom: 25px;
+
+
+}
+
+.div_article_bbk{
+
+    margin: 5px;
+}
+
+.experiencias_fecha{
+
+    color: rgb(146, 143, 143);
+}
+
+/*Educacion*/
+
+.div_educacion{
+
+    margin-top: 165px;
+}
+
+/*Educacion UASD*/
+
+.article_educacion{
+
+    margin: 0px;
+}
+
+.article_uasd{
+
+    margin-bottom: 25px;
+}
+
+/*Educacion instituto*/
+
+.article_icpa{
+
+    margin-bottom: 25px;
+}
+
+/*Educacion Data*/
+
+.article_Data{
+
+    margin-bottom: 25px;
+}
+
+/*referancias*/
+
+.div_Referencias{
+
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.article_referencias{
+
+    margin: 0;
+}
+
+/*Referencias Lama*/
+
+.article_lama{
+    
+margin-bottom: 25px;
+
+}
+
+/*Referencias Osoria*/
+
+.article_osorio{
+
+    margin-bottom: 25px;
+}
+
+/*Referencias Carreras*/
+
+.article_carreras{
+
+    margin-bottom: 25px;
+}
+
+/*contactos*/
+
+.container_contactos{
+
+    margin-top: 20px;
+}
+
+.div_contactos{
+
+    margin: 3px;
+
+}
+
+.contactos_tel{
+
+    margin-left: 5px;
+    height: 40px;
+    margin-left: 30px;
+    
+}
+
+.img_tell{
+
+    width: 23.5px;
+    height: 23.5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 287px;
+}
+
+.contactos_gmail{
+
+    margin-left: 5px;
+    height: 40px;
+    margin-left: 30px;
+
+}
+
+.img_gmail{
+     
+    width: 23.5px;
+    height: 23.5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 330px;
+
+}
+
+/*.contactos_tel::before{
+
+    content: '';
+    align-content: center;
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    background-image: url(imagenes/tell.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    border: solid red 1px;
+}*/
+
+
+/*Competencias*/
+
+.div_Competencias{
+
+    margin-top: 35px;
+    width: 250px;
+
+}
+
+.competencias{
+
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.competencias:hover{
+
+    color: rgb(197, 233, 197);
+}
+
+/*
+
+.competencias_office::before{
+    
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: #FFF;
+    top: 470px;
+    border-radius: 5px;
+    
+}
+
+.competencias_web::before{
+    
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: #FFF;
+    top: 512px;
+    border-radius: 5px;
+    
+}
+
+.competencias_informes::before{
+
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: #FFF;
+    top: 575px;
+    border-radius: 5px;
+
+}
+
+.competencias_digitacion::before{
+
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: #FFF;
+    top: 619px;
+    border-radius: 5px;
+
+}
+
+.competencias_equipo::before{
+
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: #FFF;
+    top: 662px;
+    border-radius: 5px;
+
+}
+
+.competencias_presion::before{
+
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background-color: #FFF;
+    top: 722px;
+    border-radius: 5px;
+
+}
+*/
